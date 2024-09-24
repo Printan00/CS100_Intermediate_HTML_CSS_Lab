@@ -60,12 +60,13 @@ nav ul li {
 ```css
 nav {
     background-color: #ffa41b;
-    padding: 15px;
     text-align: center;
     float: left;
     width: 20%;
     height: 100vh;
     padding-top: 15px ;
+    position: sticky;
+    top: 0;
 }
 ```
 
@@ -73,6 +74,10 @@ nav {
 ### Step 3: Adjust the Main Content Width
 - Modify the CSS `main` section to ensure the main content takes up the remaining width of the page and floats to the right of the sidebar.
 ```css
+main {
+    padding: 20px 20px 20px 23%;
+    width: 80%;
+}
 ```
 
 ---
