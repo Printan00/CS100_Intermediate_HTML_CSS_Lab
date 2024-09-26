@@ -65,8 +65,6 @@ nav {
     width: 20%;
     height: 100vh;
     padding-top: 15px ;
-    position: sticky;
-    top: 0;
 }
 ```
 
